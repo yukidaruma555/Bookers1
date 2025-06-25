@@ -21,10 +21,23 @@
 }
 
 body {
-  font-size: 13px;
+  font-size: 18px;
   margin: 33px;
+  line-height: 18px;
 }
 
- .strong {
+table {
+  width: 50%;
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 10px;
+}
+
+
+strong {
    font-weight: bolder;
  }
+
+  
