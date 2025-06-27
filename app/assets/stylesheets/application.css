@@ -22,7 +22,7 @@
 
 body {
   font-size: 18px;
-  margin: 33px;
+  margin: 40px;
   line-height: 18px;
 }
 
@@ -30,19 +30,18 @@ h1 {
   display: block;
   font-size: 2em;
   margin-block-start: 1em;
-  margin-bottom: 20px;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-bottom: 1em;
 }
 
 p {
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin: 40px;
+  padding-top: 40px;
 }
 
 table {
-  width: 50%;
+  display: table;
   table-layout: fixed;
 }
 
@@ -54,7 +53,7 @@ h2 {
   display: block;
   font-size: 1.5em;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
 }
 
@@ -63,9 +62,13 @@ div.field {
 }
 div {
   display: block;
+
 }
 
 div.action {
   margin-bottom: 10px;
 }
   
+.flash-notice {
+  color: green;
+}

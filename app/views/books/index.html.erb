@@ -1,4 +1,4 @@
-<div>
+<div class="flash-notice">
   <%= flash[:notice] %>
 </div>
 
@@ -18,10 +18,10 @@
       <tr>
         <td><%= book.title %></td>
         <td><%= book.body %></td>
-        <td>
-         <%= link_to "Show", book_path(book.id) %>
-         <%= link_to "Edit", edit_book_path(book.id) %>
-         <%= link_to "Destroy", book_path(book.id), method: :delete, "data-confirm" => "Are you sure?" %>
+        <td colspan="3">
+         <span style="margin-right: 20px"><%= link_to "Show", book_path(book.id) %></span>
+         <span style="margin-right: 20px"><%= link_to "Edit", edit_book_path(book.id) %></span>
+         <span><%= link_to "Destroy", book_path(book.id), method: :delete, "data-confirm" => "Are you sure?" %></span>
         </td>
       </tr>
     <% end %>
